@@ -19,7 +19,7 @@ body {
 .landingSection {
   margin: 10px;
   display: grid;
-  gap: 30px;
+  gap: 10px;
 }
 .landingTitles {
   display: flex;
@@ -64,7 +64,8 @@ p {
   color: #a0a0a0;
   text-align: center;
   width: 80%;
-  letter-spacing: 4px;
+  letter-spacing: normal;
+  line-height: 1.5;
 }
 
 .landingButtons {
@@ -79,7 +80,7 @@ button {
   cursor: pointer;
   margin: 20px;
   transition: background-color 0.3s ease;
-  width: 350px;
+  width: 300px;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   transition: transform 0.3s ease, color 0.3s ease;

@@ -18,6 +18,8 @@ body {
 
 .landingSection {
   margin: 10px;
+  display: grid;
+  gap: 30px;
 }
 .landingTitles {
   display: flex;
@@ -62,7 +64,7 @@ p {
   color: #a0a0a0;
   text-align: center;
   width: 80%;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 .landingButtons {
@@ -84,10 +86,12 @@ button {
   font-size: 16px;
   height: 50px;
   margin-top: 10px;
+  box-shadow: 12px 12px 79px 5px hsla(330, 100%, 50%, 0.79);
 }
 
 button:hover {
   color: white;
+
   transform: scale(1.1);
 }
 .watchJourneyBtn:hover {
